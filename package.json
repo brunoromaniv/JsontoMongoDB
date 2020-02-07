@@ -1,0 +1,30 @@
+{
+  "name": "jsontomongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoromaniv/JsontoMongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoromaniv/JsontoMongoDB/issues"
+  },
+  "homepage": "https://github.com/brunoromaniv/JsontoMongoDB#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fast-xml-parser": "^3.16.0",
+    "he": "^1.2.0",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,379 @@
+{
+ "EplanLabelling": {
+  "version": "1.0",
+  "Document": {
+   "source_id": "1",
+   "Page": [
+    {
+     "source_id": "1",
+     "name": "=PCE-U20+CF-F-1128",
+     "Header": {
+      "Property": [
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Cabo / feixe de tubos: tipo",
+        "PropertyValue": "KAD10206"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Propriedade do bloco [1]",
+        "PropertyValue": "CF-PCE-U20-F-1128"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Origem do Cabo",
+        "PropertyValue": "CF-PCE-U20"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Destino do Cabo",
+        "PropertyValue": "VS-GAE-01"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Cabo / feixe de tubos: quantidade de conexões",
+        "PropertyValue": "2"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Cabo / feixe de tubos: seção transversal / diâmetro com unidade",
+        "PropertyValue": "16,0 mm²"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Informações Cabo 3",
+        "PropertyValue": ""
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Informações Cabo 1",
+        "PropertyValue": ""
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Fornecedor",
+        "PropertyValue": ""
+       }
+      ]
+     },
+     "ColumnHeader": [
+      {
+       "DataType": "Text",
+       "PropertyName": "TAG (identificador, sem estruturas do projeto)"
+      },
+      {
+       "DataType": "Text",
+       "PropertyName": "Nome do ponto de conexão alvo"
+      },
+      {
+       "DataType": "Text",
+       "PropertyName": "Cor/número da conexão"
+      },
+      {
+       "DataType": "Text",
+       "PropertyName": "TAG (identificador, sem estruturas do projeto)"
+      },
+      {
+       "DataType": "Text",
+       "PropertyName": "Nome do ponto de conexão alvo"
+      }
+     ],
+     "Line": [
+      {
+       "source_id": "1",
+       "separator": ";",
+       "Label": {
+        "source_id": "1",
+        "Property": [
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "TAG (identificador, sem estruturas do projeto)",
+          "PropertyValue": "X90"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Nome do ponto de conexão alvo",
+          "PropertyValue": "1"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Cor/número da conexão",
+          "PropertyValue": "1"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "TAG (identificador, sem estruturas do projeto)",
+          "PropertyValue": "X1"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Nome do ponto de conexão alvo",
+          "PropertyValue": "20"
+         }
+        ]
+       }
+      },
+      {
+       "source_id": "2",
+       "separator": ";",
+       "Label": {
+        "source_id": "2",
+        "Property": [
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "TAG (identificador, sem estruturas do projeto)",
+          "PropertyValue": "X90"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Nome do ponto de conexão alvo",
+          "PropertyValue": "3"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Cor/número da conexão",
+          "PropertyValue": "2"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "TAG (identificador, sem estruturas do projeto)",
+          "PropertyValue": "X1"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Nome do ponto de conexão alvo",
+          "PropertyValue": "21"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "source_id": "2",
+     "name": "=PCE-U20+CF-F-1228",
+     "Header": {
+      "Property": [
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Cabo / feixe de tubos: tipo",
+        "PropertyValue": "KAD10206"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Propriedade do bloco [1]",
+        "PropertyValue": "CF-PCE-U20-F-1228"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Origem do Cabo",
+        "PropertyValue": "CF-PCE-U20"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Destino do Cabo",
+        "PropertyValue": "VS-GAE-01"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Cabo / feixe de tubos: quantidade de conexões",
+        "PropertyValue": "2"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Cabo / feixe de tubos: seção transversal / diâmetro com unidade",
+        "PropertyValue": "16,0 mm²"
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Informações Cabo 3",
+        "PropertyValue": ""
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Informações Cabo 1",
+        "PropertyValue": ""
+       },
+       {
+        "FormattingType": "0",
+        "FormattingLength": "32",
+        "FormattingRAlign": "1",
+        "PropertyName": "Fornecedor",
+        "PropertyValue": ""
+       }
+      ]
+     },
+     "ColumnHeader": [
+      {
+       "DataType": "Text",
+       "PropertyName": "TAG (identificador, sem estruturas do projeto)"
+      },
+      {
+       "DataType": "Text",
+       "PropertyName": "Nome do ponto de conexão alvo"
+      },
+      {
+       "DataType": "Text",
+       "PropertyName": "Cor/número da conexão"
+      },
+      {
+       "DataType": "Text",
+       "PropertyName": "TAG (identificador, sem estruturas do projeto)"
+      },
+      {
+       "DataType": "Text",
+       "PropertyName": "Nome do ponto de conexão alvo"
+      }
+     ],
+     "Line": [
+      {
+       "source_id": "3",
+       "separator": ";",
+       "Label": {
+        "source_id": "3",
+        "Property": [
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "TAG (identificador, sem estruturas do projeto)",
+          "PropertyValue": "X90"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Nome do ponto de conexão alvo",
+          "PropertyValue": "5"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Cor/número da conexão",
+          "PropertyValue": "1"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "TAG (identificador, sem estruturas do projeto)",
+          "PropertyValue": "X1"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Nome do ponto de conexão alvo",
+          "PropertyValue": "22"
+         }
+        ]
+       }
+      },
+      {
+       "source_id": "4",
+       "separator": ";",
+       "Label": {
+        "source_id": "4",
+        "Property": [
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "TAG (identificador, sem estruturas do projeto)",
+          "PropertyValue": "X90"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Nome do ponto de conexão alvo",
+          "PropertyValue": "7"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Cor/número da conexão",
+          "PropertyValue": "2"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "TAG (identificador, sem estruturas do projeto)",
+          "PropertyValue": "X1"
+         },
+         {
+          "FormattingType": "0",
+          "FormattingLength": "32",
+          "FormattingRAlign": "1",
+          "PropertyName": "Nome do ponto de conexão alvo",
+          "PropertyValue": "23"
+         }
+        ]
+       }
+      }
+     ],
+     "Footer": {
+      "SeparatorFF": ""
+     }
+    }
+   ]
+  }
+ }
+}
