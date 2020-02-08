@@ -13,11 +13,11 @@ const CableSchema = new mongoose.Schema({
     RefDocOrigem: String,
     RefDocDestino: String,
     Fornecedor: String,
-    ReguaOrigem: String,
-    BorneOrigem: String,
-    Condutor: String,
-    ReguaDestino: String,
-    BorneDestino: String,
+    ReguaOrigem: [String],
+    BorneOrigem: [String],
+    Condutor: [String],
+    ReguaDestino: [String],
+    BorneDestino: [String],
     Revisao: Number
         
 

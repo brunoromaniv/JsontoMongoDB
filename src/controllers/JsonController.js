@@ -1,6 +1,8 @@
 const fs = require('fs');
 var parser = require('fast-xml-parser');
 var he = require('he');
+const CableController = require('./CableController')
+
 
 
     module.exports = {
@@ -44,8 +46,8 @@ var he = require('he');
       var LISTA = [];
     
     var a = 2;
-    cableNumber = 10;
-   // cableNumber = listacabos.EplanLabelling.Document.Page.length;
+    cableNumber = 100;
+    //cableNumber = listacabos.EplanLabelling.Document.Page.length;
     var cables = []
     
     var js = {
@@ -98,13 +100,14 @@ var he = require('he');
         js.Fornecedor = listacabos.EplanLabelling.Document.Page[j].Header.Property[10].PropertyValue
         
         var body = listacabos.EplanLabelling.Document.Page[j].Line.length
+       
         if (body == undefined  ){
-           
-            js.ReguaOrigem = listacabos.EplanLabelling.Document.Page[j].Header.Property[11].PropertyValue
-            js.BorneOrigem = listacabos.EplanLabelling.Document.Page[j].Header.Property[12].PropertyValue
-            js.Condutor = listacabos.EplanLabelling.Document.Page[j].Header.Property[13].PropertyValue
-            js.ReguaDestino = listacabos.EplanLabelling.Document.Page[j].Header.Property[14].PropertyValue
-            js.BorneDestino = listacabos.EplanLabelling.Document.Page[j].Header.Property[15].PropertyValue
+         
+            js.ReguaOrigem = listacabos.EplanLabelling.Document.Page[j].Line.Label.Property[0].PropertyValue
+            js.BorneOrigem = listacabos.EplanLabelling.Document.Page[j].Line.Label.Property[1].PropertyValue
+            js.Condutor = listacabos.EplanLabelling.Document.Page[j].Line.Label.Property[2].PropertyValue
+            js.ReguaDestino = listacabos.EplanLabelling.Document.Page[j].Line.Label.Property[3].PropertyValue
+            js.BorneDestino = listacabos.EplanLabelling.Document.Page[j].Line.Label.Property[4].PropertyValue
                 
                 
                
@@ -126,69 +129,19 @@ var he = require('he');
             }
         }
 
-       
+        CableController.storeMany(js);
+        
         cables[j] = js;
+        
     }
-        
-        //Cabo.push( listacabos.EplanLabelling.Document.Page[j].Header.Property[i].PropertyValue)
-         
-       console.log(cables);
-    //};
+       
+       
     
-    /* let Origem = [];
-    
-    if (body == undefined  ){
-        for(v = 0; v < 5; v++){ 
-            Origem.push( listacabos.EplanLabelling.Document.Page[j].Line.Label.Property[v].PropertyValue)
-            
-           
-            };
-    
-    } else {
-        var t = 0;
-    for(var n = 0; n < listacabos.EplanLabelling.Document.Page[j].Line.length; n++){
-        for(v = 0; v < 5; v++){ 
-            
-        Origem.push( listacabos.EplanLabelling.Document.Page[j].Line[n].Label.Property[v].PropertyValue)
-        
-        
-        };
-        t = t + v;
       
- 
-        
-    };
-    
-    };   
-        
-   
-    
-    
-   
 
-    
-     a = a + teste; */
-
-   // };
 
   
-  console.log('chegou aqui');
  
-/* 
-  fs.chmod(diretorio, '755', function(err){
-    if(err){
-      console.log('deu ruim')
-    }
-  })
-    
-    await wb.xlsx.writeBuffer()
-    .then(function(buffer) {
-        console.log(buffer)
-      fs.writeFile(diretorio + '/mySheetName.xlsx', buffer, (err)=>{
-          if(err) throw err
-          console.log('done....');
-        });
-    });  */
 
     
 
