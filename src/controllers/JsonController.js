@@ -46,7 +46,7 @@ const CableController = require('./CableController')
       var LISTA = [];
     
     var a = 2;
-    cableNumber = 100;
+    cableNumber = 10;
     //cableNumber = listacabos.EplanLabelling.Document.Page.length;
     var cables = []
     
@@ -135,7 +135,7 @@ const CableController = require('./CableController')
         
     }
        
-       
+       console.log('done')
     
       
 

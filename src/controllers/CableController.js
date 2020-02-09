@@ -24,7 +24,7 @@ module.exports = {
         var ReguaDestino  = arquivo.ReguaDestino
         var BorneDestino  = arquivo.BorneDestino */
 
-  
+      
         
        let cable = await Cable.findOne({TAG})
        
@@ -36,7 +36,6 @@ module.exports = {
             TAG, 
             Codigo, 
             Origem, Corigem, 
-            Destino, 
             Cdestino, 
             formacao, 
             bitola,     
@@ -234,6 +233,26 @@ module.exports = {
     
     }
     cable = "";
+
+    var teste = Cable.find({
+        TAG, 
+        Codigo, 
+        Origem, Corigem, 
+        Destino, 
+        Cdestino, 
+        formacao, 
+        bitola, 
+        RefDocOrigem, 
+        RefDocDestino, 
+        Fornecedor, 
+        ReguaOrigem, 
+        BorneOrigem, 
+        Condutor, 
+        ReguaDestino, 
+        BorneDestino
+    });
+    console.log(teste);
+
 }
 
 
